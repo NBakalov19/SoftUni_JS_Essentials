@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="template.css" rel="stylesheet">
+    <title>Replace a Certain Word</title>
+</head>
+
+<body>
+<div id="wrapper">
+    <form id="paper">
+        <div id="margin">Word: <input id="word" name="title" type="text"></div>
+
+        <textarea id="text" name="text" placeholder="Enter the array here." rows="4"
+                  style="overflow: hidden; word-wrap: break-word; resize: none; height: 160px; "></textarea>
+        <br>
+    </form>
+</div>
+<footer>
+    <input onclick="solve()" type="button" value="Replace">
+    <div>Result: <span id="result"></span></div>
+</footer>
+</body>
+<script src="./solution.js"></script>
+
+</html>
