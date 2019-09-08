@@ -1,1 +1,1 @@
-# SoftUni_JS_Essentials
+# SoftUni_JavaScript_Essentials_May_2019
